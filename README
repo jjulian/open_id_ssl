@@ -1,0 +1,6 @@
+== omniauth-openid with Google
+
+* works great! run `rails server` and hit http://localhost:3000/
+
+* does not work when behind an SSL web server. run `rake server` to start up nginx
+and rails, then go to https://localhost:3000/.
